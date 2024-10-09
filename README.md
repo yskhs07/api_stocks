@@ -60,5 +60,6 @@ Install the required Python packages:
 ```GET http://127.0.0.1:8000/all_stocks```
 
 - To get the historical P&L statement for a stock (e.g., Reliance):
-```GET http://127.0.0.1:8000/pl_statement/RELIANCE.NS```
+
+```GET http://127.0.0.1:8000/pl_statement/RELIANCE.NS?years=2```
 
