@@ -52,7 +52,7 @@ Install the required Python packages:
 2. Install the dependencies:
 ```pip install -r requirements.txt```
 3. Run the application:
-```uvicorn main:app --reload```
+```uvicorn app:app --reload```
 4. Open your browser and navigate to http://127.0.0.1:8000/docs to access the interactive API documentation (powered by Swagger).
 
 ### Usage
