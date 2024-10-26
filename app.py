@@ -146,7 +146,7 @@ def get_financials(symbol: str):
     
 
 @app.get("/stock_history/{symbol}")
-def get_pl_statement(symbol: str, years: int = 5):
+def get_stock_history(symbol: str, years: int = 5):
     """
     Retrieve historical P&L statements for a company using Yahoo Finance.
     :param symbol: Stock symbol (e.g., RELIANCE.NS for NSE)
@@ -165,7 +165,7 @@ def get_pl_statement(symbol: str, years: int = 5):
     
 
 @app.get("/stock_fundamentals/{symbol}")
-def get_pl_statement(symbol: str, years: int = 5):
+def get_stock_fundamentals(symbol: str, years: int = 5):
     """
     Retrieve historical P&L statements for a company using Yahoo Finance.
     :param symbol: Stock symbol (e.g., RELIANCE.NS for NSE)
@@ -184,7 +184,7 @@ def get_pl_statement(symbol: str, years: int = 5):
     
 
 @app.get("/stock_financials/{symbol}")
-def get_pl_statement(symbol: str, years: int = 5):
+def get_stock_financials(symbol: str, years: int = 5):
     """
     Retrieve historical P&L statements for a company using Yahoo Finance.
     :param symbol: Stock symbol (e.g., RELIANCE.NS for NSE)
@@ -211,7 +211,7 @@ def get_pl_statement(symbol: str, years: int = 5):
     
 
 @app.get("/stock_all_data/{symbol}")
-def get_pl_statement(symbol: str, years: int = 5):
+def get_stock_all_data(symbol: str, years: int = 5):
     """
     Retrieve historical P&L statements for a company using Yahoo Finance.
     :param symbol: Stock symbol (e.g., RELIANCE.NS for NSE)
